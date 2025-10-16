@@ -1,0 +1,51 @@
+
+
+
+  
+  /* Section heading */
+  .container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+.genres-container {
+   
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.genres-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto new lines */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically (if needed) */
+    padding: 0;
+    margin: 0;
+}
+
+.genres-list li {
+    margin: 10px; /* Add some space between items */
+}
+
+
+.genres-list button {
+    margin: 0;
+    border: 0;
+    font-size: 15px;
+    background-color: rgb(245, 255, 252);
+    padding: 8px 12px; /* Adjust padding for better appearance */
+    cursor: pointer; /* Add pointer cursor on hover */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.genres-list button:hover {
+    background-color: rgb(230, 245, 240); /* Slightly darker background on hover */
+}
+
+
+  
